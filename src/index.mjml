@@ -5,6 +5,9 @@
   <mj-body>
     <mj-section>
       <mj-column>Hello World</mj-column>
+      <mj-column>
+        <mj-text>Dope</mj-text>
+      </mj-column>
     </mj-section>
   </mj-body>
 </mjml>
