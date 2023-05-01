@@ -19,4 +19,4 @@ This repository contains the result of the challenge, it was created with the [m
 -   An NPM project was created to install the `MJML` dependency
 -   The script `npm run build` was used to generate the `HTML` file to send in the email body
 -   The script `npm run server` is used for development
--   The scripts `npm start` and `npm run server` are used for live development
+-   The scripts `npm start` and `npm run server` are used for live development, you can run both using `npm run dev`

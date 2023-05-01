@@ -4,8 +4,7 @@
   </mj-head>
   <mj-body>
     <mj-section>
-      <mj-column>Hello World</mj-column>
-      <mj-column>
+      <mj-column width="100%">
         <mj-text>Dope</mj-text>
       </mj-column>
     </mj-section>

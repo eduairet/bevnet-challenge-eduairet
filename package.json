@@ -6,13 +6,19 @@
   "scripts": {
     "start": "mjml --watch src/index.mjml --output src/index.html",
     "build": "mjml src/index.mjml --output src/index.html",
-    "server": "browser-sync start --server 'src' -f -w"
+    "server": "browser-sync start --server 'src' -f -w",
+    "dev": "concurrently \"npm start\" \"npm run server\""
   },
-  "keywords": ["mjml", "html", "responsive"],
+  "keywords": [
+    "mjml",
+    "html",
+    "responsive"
+  ],
   "author": "Eduardo Aire",
   "license": "MIT",
   "devDependencies": {
+    "browser-sync": "^2.29.1",
     "mjml": "^4.14.1",
-    "browser-sync": "^2.29.1"
+    "concurrently": "^8.0.1"
   }
 }
