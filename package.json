@@ -1,0 +1,15 @@
+{
+  "name": "bevnet-challenge-eduairet",
+  "version": "1.0.0",
+  "description": "[BevNet](https://www.bevnet.com) coding challenge by Eduardo Aire Torres.",
+  "main": "index.js",
+  "scripts": {
+    "build": "mjml src/index.mjml --output src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mjml": "^4.14.1"
+  }
+}
