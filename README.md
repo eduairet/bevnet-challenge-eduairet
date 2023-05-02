@@ -12,11 +12,10 @@ This repository contains the result of the challenge, it was created with the [m
 
 ## Explanation
 
--   The footer and header from the original file were not changed from the file provided by the recruiter
+-   The footer and header (outlined sections in the following image) from the original file were injected into the `mjml` source file using `<mj-raw>`
 
 ![Example](./example-screenshot.png)
 
--   An NPM project was created to install the `MJML` dependency
--   The script `npm run build` was used to generate the `HTML` file to send in the email body
--   The script `npm run server` is used for development
+-   Dependencies and scripts in the repository are handled with `NPM` check [`package.json`](./package.json)
+-   The script `npm run build` is used to generate the responsive `HTML` file that will be attached to the emails
 -   The scripts `npm start` and `npm run server` are used for live development, you can run both using `npm run dev`
