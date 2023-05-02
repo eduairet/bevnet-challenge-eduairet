@@ -8,7 +8,7 @@ This repository contains the result of the challenge, it was created with the [m
 
 1.  File provided by the recruiter: [index.html](./index.html)
 2.  Source MJML file: [src/index.mjml](./src/index.mjml)
-3.  MJML output file (challenge file): [src/index.html](./index.html)
+3.  MJML deliverable file (challenge file): [src/index.html](./src/index.html)
 
 ## Explanation
 

@@ -1,12 +1,229 @@
 <mjml lang="eng">
   <mj-head>
+    <mj-raw>
+      <meta name="format-detection" content="telephone=no" />
+      <meta name="supported-color-schemes" content="light only" />
+    </mj-raw>
     <mj-title>BevNet Challenge - Eduardo Aire</mj-title>
+    <mj-breakpoint width="450px" />
+    <mj-html-attributes>
+      <mj-selector path=".lang">
+        <mj-html-attribute name="lang">en</mj-html-attribute>
+      </mj-selector>
+    </mj-html-attributes>
+    <mj-attributes>
+      <mj-all font-family="Arial, Helvetica, Verdana, sans-serif" />
+      <mj-text font-size="16px" line-height="22px" color="#000000" />
+      <mj-table font-size="16px" line-height="22px" color="#000000" />
+      <mj-button font-size="16px" font-weight="600" text-transform="uppercase" line-height="22px" width="100%" background-color="#363e42" color="#FFF" />
+      <mj-social-element color="#000" background-color="#FFF" border-radius="12px" color="#000000" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      :root {
+        color-scheme: light only;
+        supported-color-schemes: light only;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #1a1a1a;
+      }
+
+      a:visited,
+      a:hover,
+      a[href] {
+        color: #1a1a1a;
+      }
+
+      a:hover {
+        text-decoration: underline !important;
+      }
+
+      .black-social img {
+        filter: invert(76%);
+      }
+    </mj-style>
   </mj-head>
-  <mj-body>
-    <mj-section>
-      <mj-column width="100%">
-        <mj-text>Dope</mj-text>
-      </mj-column>
+  <mj-body background-color="#d9d9d9" width="640px" css-class="lang">
+    <!--****************************************************-->
+    <!-- Header -->
+    <mj-section padding-bottom="0px">
+      <mj-raw>
+        <table cellspacing='0' cellpadding='0' align="center" style='font-family: Arial,Helvetica,Sans-Serif; margin: 0 auto; padding: 0;  width: 100%; table-layout: fixed; background-color: #FFF'>
+          <tr>
+            <td style='background-color: #ffffff; padding: 0 10px;'>
+              <table cellspacing='0' cellpadding='0' align='center' style='margin: 0 auto; padding: 0; width: 100%;'>
+                <tr>
+                  <td style="width: 35%; color: #666666; padding: 20px 20px 20px 0; vertical-align: middle;" align="left">
+                    <a href="https://www.bevnet.com/" style="display: inline-block; max-width: 100%;"><img src="https://d2btcxja5g5zgs.cloudfront.net/assets/img/logo.png" title="BevNET.com daily news roundup" alt="BevNET.com daily news roundu\" border="0" align="center" style="height: auto; width: 100%;" /></a>
+                  </td>
+                  <td style="width: 65%; padding: 20px 0; vertical-align: middle; font-family: Arial, sans-serif; font-size: 20px; color: #e51937; font-weight: 600;" align="center">BRAND SPECIAL<br />
+                    <span style="font-size: 14px">*|DATE:F j, Y|*</span>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style='background: #f2f2f2; color: #666666;' align='left'>
+              <table cellspacing='0' cellpadding='0' align='center' style='margin: 0 auto; padding: 0; width: 100%;'>
+                <tr>
+                  <td height='20' style='font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; color: #1a1a1a; background-color: #f2f2f2; padding: 10px 15px;'>
+                    <div mc:edit="std_alert_sponsor"><span style="font-family: arial, helvetica, sans-serif; font-weight: 400; color: #777777; text-decoration: none;">Paid Advertisement from <a target="_blank" href="[[companyurl]]" style="color: #777777; font-weight: bold; text-decoration: underline;">[[companyname]]</a></span></div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </mj-raw>
     </mj-section>
+    <!--****************************************************-->
+    <mj-wrapper background-color="#FFF" padding="36px 6px">
+      <!-- Masthead -->
+      <mj-section background-color="#363e42" padding-bottom="0px">
+        <mj-column width="100%">
+          <mj-image href="www.arlafoodsingredients.com" alt="Arla Foods Logo" width="200px" align="right" height="auto" src="https://image.campaign.arlafoodsingredients.com/lib/fe3c11717564047a741170/m/1/3533fac9-4bec-4866-9ff0-338d4e1119b9.png" />
+          <mj-image href="www.arlafoodsingredients.com" alt="Running man" align="right" height="auto" padding="36px 0px 0px 0px" src="https://image.campaign.arlafoodsingredients.com/lib/fe3a11717564047a771575/m/1/8ecf665f-20e4-4003-968d-dc11befc8751.jpg" />
+        </mj-column>
+      </mj-section>
+      <!-- Body -->
+      <mj-section>
+        <mj-column width="100%">
+          <mj-text font-weight="bold">Webinar: When protein and electrolytes team up</mj-text>
+          <mj-text>We would like to invite you to our upcoming webinar: <strong>"When protein and electrolytes team up"</strong></mj-text>
+          <mj-text> Rehydration is the hot new trend in the world of sports nutrition.</mj-text>
+          <mj-text>Therefore, we have invited 3 experts to share the latest insights on consumer demands and drivers shaping the current market landscape and explain when, how and why electrolytes and protein play an important role during exercise.</mj-text>
+          <mj-table padding-top="24px" padding-bottom="24px">
+            <tr style="text-align:left">
+              <td width="100px"><strong>Date:</strong></td>
+              <td><strong>21st of February 2023</strong></td>
+            </tr>
+            <tr style="text-align:left">
+              <td width="100px"><strong>Time:</strong></td>
+              <td><strong>02:00 PM (CEST)</strong></td>
+            </tr>
+            <tr style="text-align:left">
+              <th width="100px"><strong>Duration:</strong></th>
+              <th><strong>30 minutes</strong></th>
+            </tr>
+          </mj-table>
+        </mj-column>
+        <mj-column width="100%">
+          <mj-button href="https://webinar.arlafoodsingredients.com/when-protein-and-electrolytes-team?utm_campaign=20230124-Rehydrate%20and%20Restore%20webinar%20SFMC&amp;utm_term=Sports%20Nutrition&amp;utm_source=bevnet_eshot&amp;utm_medium=mail">
+            SIGN UP
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column width="100%">
+          <mj-text font-size="22px" align="center" font-weight="600">The Speakers:</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#d1d2ce">
+        <mj-column width="33.33%" padding-bottom="36px">
+          <mj-image alt="Sifra Eigenraam" width="140px" height="auto" src="https://image.campaign.arlafoodsingredients.com/lib/fe3a11717564047a771575/m/1/92024158-188f-4381-8940-b4a745126d28.png" />
+          <mj-text align="center" font-weight="bold">Sifra Eigenraam</mj-text>
+          <mj-text align="center" font-weight="bold">Customer Success Manager<br />Innova Market Insights</mj-text>
+        </mj-column>
+        <mj-column width="33.33%" padding-bottom="36px">
+          <mj-image alt="Thien Vinh Luong" width="140px" height="auto" src="https://image.campaign.arlafoodsingredients.com/lib/fe3a11717564047a771575/m/1/d80600b6-3f12-491c-b11a-726516b8dbdb.png" />
+          <mj-text align="center" font-weight="bold">Thien Vinh Luong</mj-text>
+          <mj-text align="center" font-weight="bold">MD, PhD student<br />CEO Noutron<br />Sports Nutrition
+          </mj-text>
+        </mj-column>
+        <mj-column width="33.33%" padding-bottom="36px">
+          <mj-image alt="Kristian Høgenhaug" width="140px" height="auto" src="https://image.campaign.arlafoodsingredients.com/lib/fe3a11717564047a771575/m/1/9965b3b3-b72d-445c-b9e5-9e5717e42616.png" />
+          <mj-text align="center" font-weight="bold">Kristian H&oslash;genhaug</mj-text>
+          <mj-text align="center" font-weight="bold">Pro triathlete<br />Msc. in Sports Science
+          </mj-text>
+        </mj-column>
+        <mj-column width="33.33%" padding-bottom="36px">
+          <mj-image alt="Lene Mosegaard Arnbjerg" width="140px" height="auto" src="https://image.campaign.arlafoodsingredients.com/lib/fe3a11717564047a771575/m/1/255cbb79-da75-4e79-b901-ea37e51fc19d.png" />
+          <mj-text align="center" font-weight="bold">Lene Mosegaard Arnbjerg</mj-text>
+          <mj-text align="center" font-weight="bold">Application Scientist<br />Arla Foods Ingredients
+          </mj-text>
+        </mj-column>
+        <mj-column width="33.33%" padding-bottom="36px">
+          <mj-image alt="Mathias Toft Vangsøe" width="140px" height="auto" src="https://image.campaign.arlafoodsingredients.com/lib/fe3a11717564047a771575/m/1/042f3cc3-a77c-4b53-9cc7-d05feb4f24c1.png" />
+          <mj-text align="center" font-weight="bold">Mathias Toft Vangs&oslash;e</mj-text>
+          <mj-text align="center" font-weight="bold">Business Development Manager<br />Arla Foods Ingredients
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- Social -->
+      <mj-section background-color="#363e42">
+        <mj-column width="100%">
+          <mj-image width="180px" height="auto" src="https://image.campaign.arlafoodsingredients.com/lib/fe3c11717564047a741170/m/1/5f5d8e5c-e09f-4e81-93ba-7e23eb54bb7c.png" />
+        </mj-column>
+        <mj-column width="100%">
+          <mj-social icon-size="50px" mode="horizontal" inner-padding="30px" padding="0px">
+            <mj-social-element css-class="black-social" name="linkedin" href="https://click.campaign.arlafoodsingredients.com/?qs=3dfd0317ac803234ec0a5196f7b7a77ca9ec3ec493d04377f72a0b147a15323366ab0f67f90513fbf0247f718728b367b7ae9f34d8445eae3a78e622375319df"></mj-social-element>
+            <mj-social-element css-class="black-social" name="facebook" href="https://click.campaign.arlafoodsingredients.com/?qs=3dfd0317ac803234f624ef27023f914d89bfd79155493e77de7819f20fdbee83342996eca136507376a9816d30e188156f76eb44649417074afebe70bb11fc95"></mj-social-element>
+            <mj-social-element css-class="black-social" name="twitter" href="https://click.campaign.arlafoodsingredients.com/?qs=3dfd0317ac8032340807caa280ff6d8f0c362f90b62df467cfc6a0717cf73b953414be31f7d6da1bbfa71d04254a7c3d563559b4d3501a3293a889584e2e0f66"></mj-social-element>
+          </mj-social>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <!--****************************************************-->
+    <!-- Footer -->
+    <mj-section padding-top="0px">
+      <mj-raw>
+        <table cellspacing='0' cellpadding='0' align="center" style='font-family: Arial,Helvetica,Sans-Serif; margin: 0 auto; padding: 0;  width: 100%; table-layout: fixed; background-color: #FFF'>
+          <tr>
+            <td style="font-family: Arial, sans-serif; font-size: 12px; margin-top: 40px; line-height: 20px; color: #999999;">
+              <p style="text-align:center; margin-bottom:10px;">
+                This is a paid advertisement from [[companyname]] that was sent to the BevNET Newsletter subscriber list. The advertiser bears sole responsibility for the content of this message.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" align="center" bgcolor="#e51937" style="padding: 5px 5px;">
+              <table cellspacing="0" cellpadding="0" align="center">
+                <tbody>
+                  <tr>
+                    <td valign="top" class="em_ptop em_defaultlink" align="center" style="font-family: Arial, sans-serif; font-size: 14px; line-height: 17px; color: #ffffff; font-weight: 600; padding-top: 12px; padding-bottom: 12px">
+                      BevNET.com, Inc. 65 Chapel Street, Newton,&nbsp;MA&nbsp;02458
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table cellspacing="0" cellpadding="0" align="center">
+                <tbody>
+                  <tr>
+                    <td valign="middle" align="center" style="font-family: Arial, sans-serif; font-size: 14px; line-height: 17px; color: #ffffff; font-weight: 600;"><a href="mailto:hello@bevnet.com" style="text-decoration: none; color: #ffffff;">hello@bevnet.com</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 15px 15px;">
+              <table align="center" style="margin-left:auto; margin-right:auto; font-family:'helvetica neue',helvetica,arial,sans-serif; padding:0px; margin:0px; width:100%; background-color: #ffffff;">
+                <tr>
+                  <td style="font-family: Arial, sans-serif; font-size: 12px; line-height: 20px; color: #999999;">
+                    <p style="text-align:center; margin:3px;">
+                      <a href="https://www.bevnet.com/submit/news" style="text-decoration: none; color: #999999;">Submit News</a> | <a href="https://www.bevnet.com/advertise/" style="text-decoration: none; color: #999999;">Advertise</a> | <a href="https://www.bevnet.com/newsletter" style="text-decoration: none; color: #999999;">Subscribe</a> | <a href="*|UPDATE_PROFILE|*" style="text-decoration: none; color: #999999; font-weight: bold">Update Subscription Preferences / Profile</a> | <a href="*|UNSUB|*" style="text-decoration: none; color: #999999;">Unsubscribe</a><br />
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="em_ptop10" align="center" valign="top" style="font-family:Arial, sans-serif; font-size:12px; line-height:20px; color:#999999;"><span style="font-weight:300;">*|LIST:DESCRIPTION|*</span></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        </td>
+        </table>
+      </mj-raw>
+    </mj-section>
+    <!--****************************************************-->
   </mj-body>
 </mjml>

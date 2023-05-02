@@ -12,7 +12,9 @@
   "keywords": [
     "mjml",
     "html",
-    "responsive"
+    "email",
+    "responsive",
+    "responsive-email"
   ],
   "author": "Eduardo Aire",
   "license": "MIT",
