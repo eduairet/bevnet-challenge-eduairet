@@ -16,7 +16,7 @@
       <mj-text font-size="16px" line-height="22px" color="#000000" />
       <mj-table font-size="16px" line-height="22px" color="#000000" />
       <mj-button font-size="16px" font-weight="600" text-transform="uppercase" line-height="22px" width="100%" background-color="#363e42" color="#FFF" />
-      <mj-social-element color="#000" background-color="#FFF" border-radius="12px" color="#000000" />
+      <mj-social-element background-color="#363e42" border-radius="12px" color="#000000" />
     </mj-attributes>
     <mj-style inline="inline">
       :root {
@@ -43,10 +43,6 @@
 
       a:hover {
         text-decoration: underline !important;
-      }
-
-      .black-social img {
-        filter: invert(76%);
       }
     </mj-style>
   </mj-head>
@@ -163,10 +159,10 @@
           <mj-image width="180px" height="auto" src="https://image.campaign.arlafoodsingredients.com/lib/fe3c11717564047a741170/m/1/5f5d8e5c-e09f-4e81-93ba-7e23eb54bb7c.png" />
         </mj-column>
         <mj-column width="100%">
-          <mj-social icon-size="50px" mode="horizontal" inner-padding="30px" padding="0px">
-            <mj-social-element css-class="black-social" name="linkedin" href="https://click.campaign.arlafoodsingredients.com/?qs=3dfd0317ac803234ec0a5196f7b7a77ca9ec3ec493d04377f72a0b147a15323366ab0f67f90513fbf0247f718728b367b7ae9f34d8445eae3a78e622375319df"></mj-social-element>
-            <mj-social-element css-class="black-social" name="facebook" href="https://click.campaign.arlafoodsingredients.com/?qs=3dfd0317ac803234f624ef27023f914d89bfd79155493e77de7819f20fdbee83342996eca136507376a9816d30e188156f76eb44649417074afebe70bb11fc95"></mj-social-element>
-            <mj-social-element css-class="black-social" name="twitter" href="https://click.campaign.arlafoodsingredients.com/?qs=3dfd0317ac8032340807caa280ff6d8f0c362f90b62df467cfc6a0717cf73b953414be31f7d6da1bbfa71d04254a7c3d563559b4d3501a3293a889584e2e0f66"></mj-social-element>
+          <mj-social icon-size="50px" mode="horizontal" inner-padding="40px" padding="0px">
+            <mj-social-element name="linkedin" href="https://click.campaign.arlafoodsingredients.com/?qs=3dfd0317ac803234ec0a5196f7b7a77ca9ec3ec493d04377f72a0b147a15323366ab0f67f90513fbf0247f718728b367b7ae9f34d8445eae3a78e622375319df" src="https://image.campaign.arlafoodsingredients.com/lib/fe3c11717564047a741170/m/1/ea0507ec-8f59-4edd-bf8c-fe358fd1149f.png"></mj-social-element>
+            <mj-social-element name="twitter" href="https://click.campaign.arlafoodsingredients.com/?qs=3dfd0317ac8032340807caa280ff6d8f0c362f90b62df467cfc6a0717cf73b953414be31f7d6da1bbfa71d04254a7c3d563559b4d3501a3293a889584e2e0f66" src="https://image.campaign.arlafoodsingredients.com/lib/fe3c11717564047a741170/m/1/15babe99-1668-4b29-b129-b2c33d700ba9.png"></mj-social-element>
+            <mj-social-element name="facebook" href="https://click.campaign.arlafoodsingredients.com/?qs=3dfd0317ac803234f624ef27023f914d89bfd79155493e77de7819f20fdbee83342996eca136507376a9816d30e188156f76eb44649417074afebe70bb11fc95" src="https://image.campaign.arlafoodsingredients.com/lib/fe3c11717564047a741170/m/1/b5ef9901-6c27-4c9f-bdc2-94349f2f0691.png"></mj-social-element>
           </mj-social>
         </mj-column>
       </mj-section>
